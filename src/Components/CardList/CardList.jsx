@@ -1,5 +1,5 @@
 
-
+import "./cardList.css"
 import Card from "./Card"
 export function CardList() {
 
