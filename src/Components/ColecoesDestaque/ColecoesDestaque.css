@@ -1,0 +1,105 @@
+.featured-collections-container {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.saleContent,
+.salesection {
+  display: flex;
+  /* Define o tipo de display como flexível */
+  flex-wrap: wrap;
+  /* Permite que os itens quebrem para a próxima linha em telas menores */
+  justify-content: space-between;
+  /* Distribui os itens igualmente ao longo do contêiner */
+  gap: 5px;
+  /* Adiciona espaço entre os itens */
+}
+
+.oferta,
+.destaque {
+  flex: 1;
+  /* Define a flexibilidade dos itens para que eles ocupem o espaço disponível */
+
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  /* Define a direção do flex para vertical */
+}
+
+.imgContent,
+.imgcollection-only,
+.imgcollection {
+  flex: 1;
+  /* Define a flexibilidade dos itens para que eles ocupem o espaço disponível */
+}
+
+.imgContent img,
+.imgcollection-only img,
+.imgcollection img {
+  max-width: 100%;
+  /* Garante que as imagens não ultrapassem o contêiner */
+  height: auto;
+  /* Mantém a proporção da imagem */
+}
+
+
+/* .tudo {
+
+  display: flex;
+  gap: 5%;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  justify-content: center;
+}
+
+.tenes {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.lua {
+  position: fixed;
+  width: "20%";
+  height: "20%";
+  margin-left: 30px;
+}
+
+.tenis {
+  position: relative;
+  width: " 80%";
+  height: "80%";
+  margin-top: 50px;
+}
+
+.Oferta {
+  font-family: sans-serif;
+  color: rgb(235, 31, 150);
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #474747;
+  font-size: 40px;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+.botao {
+  background-color: rgb(235, 31, 150);
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+  height: 35px;
+  font-family: sans-serif;
+  margin-top: 40px;
+  border-color: rgb(235, 31, 150);
+  box-shadow: none;
+} */

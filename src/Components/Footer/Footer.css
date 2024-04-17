@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-footer {
+  background-color: #1f1f1f;
+  height: 360px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  /* Centralizar verticalmente */
+}
+
+.bg-footer ul {
+  list-style: none;
+}
+
+.bg-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials {
+  width: 400px;
+  padding: 50px 100px 0 20px;
+}
+
+.txt p {
+  line-height: 26px;
+}
+
+.sobre {
+  display: flex;
+  width: 350px;
+  height: 50px;
+  align-items: start;
+}
+
+.sobre h1 {
+  gap: 10px;
+}
+
+/* Mídias sociais */
+
+.media a {
+  padding: 0 20px 0 0;
+}
+
+/* Mídias sociais */
+
+.socials p {
+  margin-top: 30px;
+  font-size: 13px;
+  margin-bottom: 65px;
+}
+
+.ft-card {
+  margin-top: 61px;
+  margin-left: 80px;
+  justify-content: space-between;
+  /* Distribuir espaço uniformemente entre as colunas */
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  width: 200px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.card ul li {
+  padding: 10px 0;
+}
+
+.card a:hover {
+  color: #777;
+}
+
+/* Adicionando regra para ajustar o espaçamento entre as colunas */
+.card:nth-child(2),
+.card-categorias,
+.card-contato {
+  margin-left: auto;
+  /* Empurrar a coluna "Categorias" e "Contato" para a esquerda */
+}
+
+.card-categorias,
+.card-contato {
+  width: 200px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.card-categorias ul li,
+.card-contato ul li {
+  padding: 10px 0;
+}
+
+.card-categorias a:hover,
+.card-contato a:hover {
+  color: #777;
+}
+
+.direitos {
+  text-align: center;
+  padding: 30px;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 13px;
+}
+
+.direitos p {
+  margin-top: auto;
+  padding-top: 30px;
+}
+
+hr {
+  margin: auto;
+  border: none;
+  height: 1px;
+  width: 1060px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Adicionando regras de mídia para tornar o layout responsivo para dispositivos menores */
+
+@media screen and (max-width: 400px) {
+  .socials {
+    padding: 20px;
+  }
+
+  .ft-card {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    /* Adicionando a propriedade display: flex para garantir que as colunas estejam na vertical */
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .direitos {
+    padding: 10px;
+  }
+
+  .card-categorias,
+  .card-contato {
+    width: 100%;
+  }
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.imgProduto {
+  width: 200px;
+}
+
+.produtos-em-alta-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.produto-imagem {
+  display: flex;
+}
+
+.desconto {
+  font-family: 'Inter', sans-serif;
+  color: red;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  display: inline-flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 29px;
+  background: #E7FF86;
+}
+
+.outradiv {
+  color: black;
+}
+
+.preco-desconto {
+  text-decoration: line-through;
+}
+
+.produto-info {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.produtos-em-alta-container {
+  border: 1px;
+  height: 400px;
+  width: 2500px;
+}
+
+.ver-todos-link {
+  text-decoration: none;
+}
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.imgProduct {
+  width: 200px;
+}
+
+.cima {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divPai {
+  display: flex;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.divmaior {
+
+  width: 200px;
+
+  height: auto;
+
+}
+
+.menor {
+  font-family: 'Inter', sans-serif;
+  color: red;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  display: inline-flex;
+  padding: 5px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 29px;
+  background: #E7FF86;
+}
+
+.outradiv {
+  color: black;
+}
+
+span {
+  text-decoration: line-through;
+}
+
+p {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.outradiv {
+  border: 1px;
+  height: 400px;
+  width: 2500px;
+}
+
+a {
+  text-decoration: none;
+} */

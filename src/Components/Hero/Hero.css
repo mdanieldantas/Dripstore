@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.hero-container {
+  background-image: linear-gradient(to bottom, rgb(224, 224, 224), white);
+  width: 100%;
+  height: auto;
+  /* Ajuste para altura automática */
+  display: flex;
+  flex-direction: column;
+  /* Mudança para coluna em dispositivos menores */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 50px 15px;
+  /* Adicionado padding para espaço interno */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  /* Direção padrão para telas maiores */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* Espaço entre texto e imagem */
+}
+
+.hero-text {
+  max-width: 600px;
+  /* Limita o tamanho do texto para telas maiores */
+  text-align: center;
+  /* Centraliza o texto para melhor leitura em telas menores */
+}
+
+.hero-offer-highlight,
+.hero-text h1,
+.hero-text p {
+  margin: 10px 0;
+  /* Adiciona espaço vertical entre os elementos de texto */
+}
+
+.hero-offers-button {
+  display: inline-block;
+  background-color: #c92071;
+  padding: 8px 40px;
+  border-radius: 3px;
+  border: none;
+  color: #f5f5f5;
+  text-decoration: none;
+  margin-top: 20px;
+  /* Aumenta o espaço acima do botão */
+}
+
+.hero-image img {
+  width: 100%;
+  /* Torna a imagem responsiva */
+  max-width: 500px;
+  /* Limita o tamanho máximo da imagem */
+  height: auto;
+}
+
+.hero-ornament {
+  display: none;
+  /* Oculta o ornamento em dispositivos menores para simplificar */
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    /* Muda para coluna em telas menores */
+  }
+
+  .hero-text {
+    max-width: 100%;
+    /* Permite que o texto ocupe toda a largura disponível */
+  }
+
+  .hero-image img {
+    max-width: 300px;
+    /* Ajusta o tamanho da imagem para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-offers-button {
+    padding: 8px 20px;
+    /* Reduz o padding do botão para economizar espaço */
+  }
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+.hero_container {
+  background-image: linear-gradient(to bottom, rgb(224, 224, 224), white);
+  width: 100%;
+  height: 75vh;
+}
+
+.hero_2 {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 124px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.hero_text span {
+  font-size: 1rem;
+  color: #fdbf4c;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.hero_text h1 {
+  font-size: 4rem;
+  line-height: 66px;
+  letter-spacing: 1px;
+}
+
+.hero_text p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+}
+
+.hero_text button {
+  background-color: #c92071;
+  padding: 8px 40px;
+  border-radius: 3px;
+  border: none;
+}
+
+.hero_text button a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.hero_ornament {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  background-image: radial-gradient(circle at center,
+      #fdbf4c 0.25vh,
+      transparent 0);
+  background-size: 1.5vh 1.5vh;
+  background-repeat: round;
+  position: absolute;
+  z-index: 2;
+  right: 3%;
+  top: 16%;
+} */

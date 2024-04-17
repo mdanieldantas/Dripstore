@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px 15px;
+  /* Reduzido para melhor visualização em telas menores */
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que os itens se ajustem conforme o espaço disponível */
+  align-items: center;
+  gap: 1rem;
+  /* Ajustado para espaçamento uniforme */
+}
+
+.logo {
+  flex: 1;
+  /* Permite que o logo ajuste seu tamanho */
+  max-width: 200px;
+  /* Limita o tamanho máximo do logo */
+  height: auto;
+  /* Ajusta a altura automaticamente */
+}
+
+.search-input {
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+  /* Espaçamento no topo para dispositivos menores */
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-basis: 100%;
+  /* Força os botões a ocuparem sua própria linha em telas menores */
+}
+
+.button,
+.cart-icon {
+  margin-top: 10px;
+  /* Espaçamento no topo para alinhamento */
+}
+
+.cart-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  /* Coloca os links em coluna em telas menores */
+  align-items: center;
+  /* Centraliza os itens */
+  gap: 1rem;
+  margin-top: 20px;
+  /* Aumenta o espaçamento acima da navegação */
+}
+
+.nav-header a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  /* Garante que os textos dos links estejam centralizados */
+}
+
+/* Media Queries para ajustes finos */
+
+@media (min-width: 768px) {
+  .header {
+    padding: 42px 104px;
+    /* Aumenta o padding em telas maiores */
+  }
+
+  .header-content {
+    flex-wrap: nowrap;
+    /* Desfaz a quebra de linha */
+  }
+
+  .search-input,
+  .actions {
+    margin-top: 0;
+    /* Remove o espaçamento adicional no topo */
+  }
+
+  .actions {
+    flex-basis: auto;
+    /* Permite que os botões ajustem seu tamanho automaticamente */
+  }
+
+  .nav-header {
+    flex-direction: row;
+    /* Retorna para layout de linha */
+    justify-content: center;
+    /* Espaçamento igual entre links */
+    gap: 2rem;
+    /* Espaçamento entre os itens do menu */
+  }
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body {
+  margin: 0%;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 192px;
+  padding-top: 42px;
+  padding-left: 104px;
+  padding-right: 104px;
+}
+
+.navHeader {
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  margin-top: 29px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  gap: 2%;
+
+}
+
+.navHeader a {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+}
+
+.logo {
+  width: 253px;
+  height: 44px;
+
+}
+
+.lupa {
+  width: 400px;
+  height: 40px;
+  top: 34px;
+  left: 384px;
+  border: none;
+  border-radius: 2%;
+  background-color: #f5f5f5;
+
+}
+
+.botao {
+  width: 114px;
+  height: 40px;
+  top: 44px;
+  left: 1123px;
+  background-color: #c92071;
+  color: rgb(225, 225, 225);
+  border-radius: 10%;
+  border: none;
+} */
